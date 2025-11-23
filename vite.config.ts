@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: process.env.VITE_BASE_Path || '/mydas',
+    base: process.env.VITE_BASE_PATH || '/mydas',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
