@@ -133,8 +133,8 @@ export default function ContactPage() {
                   <div>
                     <h4 className="mb-1">Address</h4>
                     <p className="text-sm text-gray-600">
-                      123 Paradise Beach Road<br />
-                      Bali, Indonesia 80361
+                      KM 1 Ikare-Owo Road, Owo 342106,<br />
+                    Owo 342106, Ondo state, Nigeria
                     </p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                     <h4 className="mb-1">Phone</h4>
                     <p className="text-sm text-gray-600">
                       <a href="tel:+1234567890" className="hover:text-blue-900">
-                        +1 (234) 567-8900
+                        +(234) 803 707 4799
                       </a>
                     </p>
                     <p className="text-xs text-gray-500 mt-1">Available 24/7</p>
@@ -478,7 +478,7 @@ export default function ContactPage() {
         <h2 className="text-3xl text-center text-blue-900 mb-8">Find Us</h2>
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126214.40405103774!2d115.17288793781245!3d-8.670458199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246c5d7206b73%3A0x1d6ec374f7e7c55!2sBali%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24119.560863986353!2d5.575998010839851!3d7.23151250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1047b1284aa59dbb%3A0xde59fef832658609!2sMydas%20Resort!5e1!3m2!1sen!2sng!4v1763834238222!5m2!1sen!2sng"
             width="100%"
             height="450"
             style={{ border: 0 }}

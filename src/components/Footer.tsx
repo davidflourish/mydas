@@ -105,14 +105,14 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li className="flex items-start gap-3">
                 <MapPin className="size-5 text-orange-400 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-300">
-                  123 Paradise Beach Road<br />
-                  Bali, Indonesia 80361
+                 KM 1 Ikare-Owo Road, Owo 342106,<br />
+                  Owo 342106, Ondo state, Nigeria
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="size-5 text-orange-400 flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-gray-300 hover:text-orange-400 transition-colors">
-                  +1 (234) 567-8900
+                  +(234) 803 707 4799
                 </a>
               </li>
               <li className="flex items-center gap-3">
