@@ -161,8 +161,8 @@ export default function ContactPage() {
                   <div>
                     <h4 className="mb-1">Email</h4>
                     <p className="text-sm text-gray-600">
-                      <a href="mailto:info@mydasresort.com" className="hover:text-blue-900">
-                        info@mydasresort.com
+                      <a href="mailto:info@AandBresort.com" className="hover:text-blue-900">
+                        info@andBresort.com
                       </a>
                     </p>
                     <p className="text-xs text-gray-500 mt-1">Response within 24 hours</p>
@@ -485,7 +485,7 @@ export default function ContactPage() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Mydas Resort Location"
+            title="A and B Resort Location"
           />
         </div>
       </section>

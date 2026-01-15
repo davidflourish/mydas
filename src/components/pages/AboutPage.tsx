@@ -59,7 +59,7 @@ export default function AboutPage() {
               animate={{ y: 0, opacity: 1 }}
               className="text-4xl md:text-6xl mb-4"
             >
-              About Mydas Resort
+              About A and B Resort
             </motion.h1>
             <motion.p
               initial={{ y: 20, opacity: 0 }}
@@ -85,7 +85,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl text-blue-900 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Nestled on the pristine shores of Bali, Mydas Resort & Hotel opened its doors in 2010 
+                Nestled on the pristine shores of Bali, A and B Resort & Hotel opened its doors in 2010 
                 with a vision to create a tropical sanctuary where luxury meets authenticity. What began 
                 as a boutique property with 20 rooms has blossomed into a 50-room paradise, consistently 
                 ranked among the world's finest beach resorts.
@@ -93,7 +93,7 @@ export default function AboutPage() {
               <p>
                 Our journey has been guided by a simple philosophy: to provide guests with experiences 
                 that touch the soul. From the moment you step onto our grounds, you're enveloped in an 
-                atmosphere of tranquility, elegance, and genuine warmth that defines the Mydas difference.
+                atmosphere of tranquility, elegance, and genuine warmth that defines the A and B Resort difference.
               </p>
               <p>
                 Today, we're proud to employ over 150 team members from the local community, many of whom 
@@ -146,7 +146,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl text-blue-900 mb-6">Sustainability Commitment</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  At Mydas Resort, we believe luxury and environmental responsibility go hand in hand. 
+                  At A and B Resort, we believe luxury and environmental responsibility go hand in hand. 
                   Our comprehensive sustainability program encompasses every aspect of our operations.
                 </p>
                 <ul className="space-y-3">
@@ -260,7 +260,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center text-white">
           <div className="max-w-3xl mx-auto">
             <Users className="size-16 mx-auto mb-6 opacity-80" />
-            <h2 className="text-3xl md:text-4xl mb-4">Join the Mydas Family</h2>
+            <h2 className="text-3xl md:text-4xl mb-4">Join the A and B Family</h2>
             <p className="text-white/90 mb-8">
               We're always looking for passionate individuals to join our team. 
               Explore career opportunities and become part of something special.

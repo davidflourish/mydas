@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { id: 1, text: "Hello! Welcome to Mydas Resort. How can I help you today?", sender: 'bot' }
+    { id: 1, text: "Hello! Welcome to A and B Resort. How can I help you today?", sender: 'bot' }
   ]);
   const [inputValue, setInputValue] = useState('');
 
@@ -57,7 +57,7 @@ export default function ChatWidget() {
                   🏝️
                 </div>
                 <div>
-                  <h4 className="text-sm">Mydas Resort</h4>
+                  <h4 className="text-sm">A and B Resort</h4>
                   <p className="text-xs text-white/80">Typically replies instantly</p>
                 </div>
               </div>

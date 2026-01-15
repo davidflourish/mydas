@@ -146,16 +146,20 @@ export default function HomePage() {
               transition={{ delay: 0.2 }}
               className="text-lg md:text-2xl mb-8 text-white/90"
             >
-              Experience Luxury at Mydas Resort & Hotel
+              Experience Luxury at A and B Resort & Hotel
             </motion.p>
             <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg">
-                Explore Our Rooms
-              </Button>
+                <Button 
+                  size="lg" 
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg"
+                  onClick={() => navigateWithBooking('rooms')}  // Add this line
+                >
+                  Explore Our Rooms
+                </Button>
             </motion.div>
           </div>
         </div>

@@ -60,9 +60,9 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 <Phone className="size-4" />
                 <span className="hidden sm:inline">+1 (234) 567-8900</span>
               </a>
-              <a href="mailto:info@mydasresort.com" className="flex items-center gap-2 hover:text-orange-300 transition-colors">
+              <a href="mailto:info@AandBresort.com" className="flex items-center gap-2 hover:text-orange-300 transition-colors">
                 <Mail className="size-4" />
-                <span className="hidden sm:inline">info@mydasresort.com</span>
+                <span className="hidden sm:inline">info@AandBresort.com</span>
               </a>
             </div>
             <div className="flex gap-4">
@@ -102,7 +102,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             </div>
             <div>
               <h1 className={`${isScrolled ? 'text-blue-900' : 'text-white'} text-xl sm:text-2xl tracking-tight transition-colors`}>
-                Mydas Resort & Hotel
+                A and B Resort & Hotel
               </h1>
               <p className={`text-xs ${isScrolled ? 'text-orange-600' : 'text-orange-300'} tracking-wider`}>
                 ESCAPE TO PARADISE

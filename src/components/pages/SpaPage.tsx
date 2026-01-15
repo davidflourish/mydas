@@ -7,7 +7,7 @@ import { useAppContext } from '../../App';
 
 const services = [
   {
-    name: 'Signature Mydas Massage',
+    name: 'Signature A and B Massage',
     duration: '90 min',
     price: 180,
     description: 'Our signature treatment combining traditional techniques with aromatic oils for deep relaxation.',

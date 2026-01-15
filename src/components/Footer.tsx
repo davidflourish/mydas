@@ -42,7 +42,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="text-3xl">🏝️</span>
-              <h3 className="text-xl">Mydas Resort</h3>
+              <h3 className="text-xl">A and B Resort</h3>
             </div>
             <p className="text-gray-300 mb-4 text-sm leading-relaxed">
               Experience luxury and tranquility at our beachfront paradise. 
@@ -117,8 +117,8 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="size-5 text-orange-400 flex-shrink-0" />
-                <a href="mailto:info@mydasresort.com" className="text-gray-300 hover:text-orange-400 transition-colors">
-                  info@mydasresort.com
+                <a href="mailto:info@AandBresort.com" className="text-gray-300 hover:text-orange-400 transition-colors">
+                  info@AandBresort.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -173,14 +173,14 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Map Section */}
         <div className="mt-12 rounded-xl overflow-hidden border border-gray-700">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24119.560863986353!2d5.575998010839851!3d7.23151250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1047b1284aa59dbb%3A0xde59fef832658609!2sMydas%20Resort!5e1!3m2!1sen!2sng!4v1763834238222!5m2!1sen!2sng"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.236745662518!2d5.5570625!3d7.213812499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1047a55e261f30e7%3A0x9fb09f3f430dd779!2sA%20%26%20B%20First%20Diamond%20Hotel%20and%20Suites%2C%20Owo!5e0!3m2!1sen!2sng!4v1768468322036!5m2!1sen!2sng"
             width="100%"
             height="250"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Mydas Resort Location"
+            title="A and B Resort Location"
           />
         </div>
       </div>
@@ -189,7 +189,7 @@ export default function Footer({ onNavigate }: FooterProps) {
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>&copy; 2024 Mydas Resort & Hotel. All rights reserved.</p>
+            <p>&copy; 2024 A and B Resort & Hotel. All rights reserved.</p>
             <p className="flex items-center gap-2">
               <span>built and design by</span>
               <span className="text-orange-400">CODEX</span>

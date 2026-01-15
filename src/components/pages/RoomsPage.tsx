@@ -327,9 +327,9 @@ export default function RoomsPage() {
                     <Calendar className="size-4 mr-2" />
                     Book Now
                   </Button>
-                  <Button variant="outline" className="px-4">
+                  {/* <Button variant="outline" className="px-4">
                     Details
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </motion.div>
@@ -353,17 +353,21 @@ export default function RoomsPage() {
       </div>
 
       {/* Virtual Tour CTA */}
-      <section className="bg-gradient-to-r from-orange-500 to-orange-600 py-16">
-        <div className="container mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl md:text-4xl mb-4">Take a Virtual Tour</h2>
-          <p className="text-white/90 mb-8 max-w-2xl mx-auto">
-            Experience our rooms in 360° before you book. See every detail from the comfort of your home.
-          </p>
-          <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100">
-            Launch Virtual Tour
-          </Button>
-        </div>
-      </section>
+          <section className="bg-gradient-to-r from-orange-500 to-orange-600 py-16">
+            <div className="container mx-auto px-4 text-center text-white">
+              <h2 className="text-3xl md:text-4xl mb-4">Take a Virtual Tour</h2>
+              <p className="text-white/90 mb-8 max-w-2xl mx-auto">
+                Experience our rooms in 360° before you book. See every detail from the comfort of your home.
+              </p>
+              <Button 
+                size="lg" 
+                className="bg-white text-orange-600 hover:bg-gray-100"
+                onClick={() => window.open('https://www.tiktok.com/@cinema.simple/video/7589231237332602132?is_from_webapp=1&sender_device=pcu', '_blank', 'noopener,noreferrer')}
+              >
+                Launch Virtual Tour
+              </Button>
+            </div>
+          </section>
     </div>
   );
 }
